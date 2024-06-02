@@ -1,0 +1,77 @@
+1). What is JavaScript?
+=>  JavaScript is a scripting or programming language.
+=>  JavaScript is  used to create and control dynamic website content.
+
+2). What is the use of isNaN function? 
+=>  the isNaN() function in JavaScript to check whether a value is NaN, and then convert it to a number if necessary. 
+=>  The isNaN() function returns true if the value is NaN, and false if it is a number.
+
+3). What is negative Infinity? 
+=>  there is a concept called negative infinity, which is less than any real number. 
+=>  The symbol “-∞” is used to denote negative infinity. 
+
+4).  Which company developed JavaScript?
+=>  JavaScript was created at Netscape Communications by Brendan Eich in 1995.
+
+5). What are undeclared and undefined variables? 
+=>  Undeclared variables are those that have not been declared or defined in the current scope, while undefined variables are those that have been declared but not given a value.
+
+6). What is the difference between ViewState and SessionState? 
+=>  Session State: Use for short-lived data that is specific to a single user and does not require      persistence after the session ends. For instance, temporary data in multi-page forms. 
+    
+=>  ViewState: Suitable for maintaining state in server controls between postbacks.
+
+7).  What is === operator? 
+=>   The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. 
+ 
+=>  ex. console.log(1 === 1);
+
+8). How can the style/class of an element be changed? 
+=>  we will learn how we can change the style/class of an element. If you want to build a cool website or app then UI plays an important role. We can change, add or remove any CSS property from an HTML element on the occurrence of any event with the help of JavaScript. There are two common approaches that allow us to achieve this task.
+
+  .style.property
+  .Changing the class itself
+
+9). How to read and write a file using JavaScript? 
+=>  The fs.readFile() and rs.writeFile() methods are used to read and write of a file using javascript. The file is read using the fs.readFile() function, which is an inbuilt method.
+
+10). What are all the looping structures in JavaScript?
+=>   The structures for loops provided in JavaScript :
+     .for statement. 
+     .do-while statement.
+     .while statement.
+     .labeled statement.
+     .break statement.
+     .continue statement.
+     .for-in statement.
+     .for-of statement.
+
+11). Write the code for adding new elements dynamically? 
+=>   Dynamic element creation in JavaScript allows you to generate new HTML elements on the get-go. Whether you need to add content to a web page based on user interactions or dynamically generate elements for a specific task, it can help enhance the flexibility and interactivity of web applications.
+
+12). How can you convert the string of any base to an integer in JavaScript? 
+=>    1: Convert String to an Integer using parseInt() Method.
+      2: Convert String to an Integer using Number() Method.
+      3: Convert String to an Integer using Unary Operator.
+      4: Convert String to an Integer using Math.floor() Method.
+
+13). What is the function of the delete operator? 
+=>   The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.
+
+14). What are all the types of Pop up boxes available in JavaScript? 
+=>   JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+15). What is the use of Void (0)? 
+=>   JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side effects caused while inserting an expression in a web page.
+
+16). How can a page be forced to load another page in JavaScript? 
+=>   In JavaScript, we can use window. location object to force a page to load another page. We can use the location object to set the URL of a new page.
+
+17). What are the disadvantages of using innerHTML in JavaScript? 
+=>   Disadvantages of innerHTML
+     It is very slow because as inner HTML already parses the content even we have to parse the content again so that's why it takes time. When we have used the event handlers then the event handlers are not automatically attached to the new elements created by innerHTML
+
+
+
+
+
